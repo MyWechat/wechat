@@ -11,10 +11,9 @@
 ### 使用方式
 
 ```shell
-git clone https://github.com/jialeicui/wechat.git
-cd wechat
-go get ./...
-go run main.go
+go get -u github.com/jialeicui/wechat
+cd $GOPATH/src/github.com/jialeicui/wechat
+go build
 ```
 
 ### 配置说明
