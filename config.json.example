@@ -1,0 +1,17 @@
+{
+  "base": {
+    "admin": [
+      "张三",
+      "李四"
+    ],
+    "loglevel": "debug",
+    "apiaddr": "127.0.0.1:8765"
+  },
+  "user": [
+    {
+      "username": "崔一万",
+      "action": "/path/to/foo.py"
+    }
+  ],
+  "default": "/path/to/bar.py"
+}

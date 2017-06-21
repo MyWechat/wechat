@@ -1,0 +1,5 @@
+config.json
+env/
+*.py[cod]
+.idea/
+.DS_Store
