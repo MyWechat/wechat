@@ -64,7 +64,11 @@ go build
 
   使用时将 send_msg 调用地方填写为正确的昵称或者备注名称
 
+  ![](image/smzdm.png)
+
 * event-notification 根据用户日历发送提醒
 
   * 接收人的地方需要改
   * get_calendar_content 中将读取日历内容的方式修改为直接读 webcal (只测试了 macOS 下的日历, 测试方式为建立一个公开日历, 将日历地址中的 webcal 替换为 https 即可)
+
+  ![](image/event.png)
