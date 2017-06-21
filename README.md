@@ -7,7 +7,6 @@
 * 只实现了微信收发的基本内核, 额外功能需扩展
 
 
-
 ### 使用方式
 
 ```shell
@@ -72,3 +71,7 @@ go build
   * get_calendar_content 中将读取日历内容的方式修改为直接读 webcal (只测试了 macOS 下的日历, 测试方式为建立一个公开日历, 将日历地址中的 webcal 替换为 https 即可)
 
   ![](image/event.png)
+
+### 致谢
+
+开发过程参考了 https://github.com/liuwons/wxBot
